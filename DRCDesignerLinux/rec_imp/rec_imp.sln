@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rec_imp", "rec_imp.vcproj", "{0B999EE0-20DD-4ECC-AD7C-52C4194B7B31}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "call_saw", "..\tests\Windows\call_saw.vcproj", "{220AC442-7044-4516-BE28-371473B8868F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mathstest", "..\..\mathstest\mathstest.vcproj", "{BB2B70BF-73E2-4CD0-9D52-674AD58451D8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0B999EE0-20DD-4ECC-AD7C-52C4194B7B31}.Debug.ActiveCfg = Release|Win32
+		{0B999EE0-20DD-4ECC-AD7C-52C4194B7B31}.Debug.Build.0 = Release|Win32
+		{0B999EE0-20DD-4ECC-AD7C-52C4194B7B31}.Release.ActiveCfg = Release|Win32
+		{0B999EE0-20DD-4ECC-AD7C-52C4194B7B31}.Release.Build.0 = Release|Win32
+		{220AC442-7044-4516-BE28-371473B8868F}.Debug.ActiveCfg = Debug|Win32
+		{220AC442-7044-4516-BE28-371473B8868F}.Debug.Build.0 = Debug|Win32
+		{220AC442-7044-4516-BE28-371473B8868F}.Release.ActiveCfg = Release|Win32
+		{220AC442-7044-4516-BE28-371473B8868F}.Release.Build.0 = Release|Win32
+		{BB2B70BF-73E2-4CD0-9D52-674AD58451D8}.Debug.ActiveCfg = Debug|Win32
+		{BB2B70BF-73E2-4CD0-9D52-674AD58451D8}.Debug.Build.0 = Debug|Win32
+		{BB2B70BF-73E2-4CD0-9D52-674AD58451D8}.Release.ActiveCfg = Release|Win32
+		{BB2B70BF-73E2-4CD0-9D52-674AD58451D8}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

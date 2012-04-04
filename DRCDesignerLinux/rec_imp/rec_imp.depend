@@ -1,0 +1,334 @@
+# depslib dependency file v1.0
+1092241653 t:\src\rtaudio-3.0.1\rec_imp\asio\asio.cpp
+	<string.h>
+	"asiosys.h"
+	"asio.h"
+	"asiodrvr.h"
+	"windows.h"
+	"iasiodrv.h"
+	"asiodrivers.h"
+	"asiodrvr.h"
+
+1092241653 t:\src\rtaudio-3.0.1\rec_imp\asio\asiosys.h
+
+1092241653 t:\src\rtaudio-3.0.1\rec_imp\asio\asio.h
+
+1092241653 t:\src\rtaudio-3.0.1\rec_imp\asio\asiodrvr.h
+	"asiosys.h"
+	"asio.h"
+	<windows.h>
+	"combase.h"
+	"iasiodrv.h"
+
+1092241682 t:\src\rtaudio-3.0.1\rec_imp\asio\iasiodrv.h
+	"asiosys.h"
+	"asio.h"
+
+1092241653 t:\src\rtaudio-3.0.1\rec_imp\asio\asiodrivers.h
+	"ginclude.h"
+	"CodeFragments.hpp"
+	<windows.h>
+	"asiolist.h"
+	"asiolist.h"
+
+1092241669 t:\src\rtaudio-3.0.1\rec_imp\asio\ginclude.h
+
+1092241653 t:\src\rtaudio-3.0.1\rec_imp\asio\asiolist.h
+
+1092241653 t:\src\rtaudio-3.0.1\rec_imp\asio\asiodrivers.cpp
+	<string.h>
+	"asiodrivers.h"
+	"iasiodrv.h"
+	"asiolist.h"
+
+1092241653 t:\src\rtaudio-3.0.1\rec_imp\asio\asiolist.cpp
+	<windows.h>
+	"iasiodrv.h"
+	"asiolist.h"
+
+1092761410 t:\src\rtaudio-3.0.1\rec_imp\fftsg_h.cpp
+	"fftsg_h.h"
+	<math.h>
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1093102196 t:\src\rtaudio-3.0.1\rec_imp\fftsg_h.h
+
+1108320439 t:\src\rtaudio-3.0.1\rec_imp\rec_imp.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"fftsg_h.h"
+	"RtAudio.h"
+
+1107571089 t:\src\rtaudio-3.0.1\rec_imp\rtaudio.h
+	"RtError.h"
+	<string>
+	<vector>
+	<windows.h>
+	<process.h>
+	<pthread.h>
+	<CoreAudio/AudioHardware.h>
+
+1077915557 t:\src\rtaudio-3.0.1\rec_imp\rterror.h
+	<iostream>
+	<string>
+
+1130955426 t:\src\rtaudio-3.0.1\rec_imp\rtaudio.cpp
+	"RtAudio.h"
+	<iostream>
+	<unistd.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/soundcard.h>
+	<errno.h>
+	<math.h>
+	<jack/jack.h>
+	<unistd.h>
+	<alsa/asoundlib.h>
+	<unistd.h>
+	<ctype.h>
+	"asio/asiosys.h"
+	"asio/asio.h"
+	"asio/asiodrivers.h"
+	<math.h>
+	<dsound.h>
+	<dmedia/audio.h>
+	<unistd.h>
+	<errno.h>
+
+1092241653 t:\src\rtaudio.dev\rec_imp\asio\asio.cpp
+	<string.h>
+	"asiosys.h"
+	"asio.h"
+	"asiodrvr.h"
+	"windows.h"
+	"iasiodrv.h"
+	"asiodrivers.h"
+	"asiodrvr.h"
+
+1092241653 t:\src\rtaudio.dev\rec_imp\asio\asiosys.h
+
+1092241653 t:\src\rtaudio.dev\rec_imp\asio\asio.h
+
+1092241653 t:\src\rtaudio.dev\rec_imp\asio\asiodrvr.h
+	"asiosys.h"
+	"asio.h"
+	<windows.h>
+	"combase.h"
+	"iasiodrv.h"
+
+1092241682 t:\src\rtaudio.dev\rec_imp\asio\iasiodrv.h
+	"asiosys.h"
+	"asio.h"
+
+1092241653 t:\src\rtaudio.dev\rec_imp\asio\asiodrivers.h
+	"ginclude.h"
+	"CodeFragments.hpp"
+	<windows.h>
+	"asiolist.h"
+	"asiolist.h"
+
+1092241669 t:\src\rtaudio.dev\rec_imp\asio\ginclude.h
+
+1092241653 t:\src\rtaudio.dev\rec_imp\asio\asiolist.h
+
+1092241653 t:\src\rtaudio.dev\rec_imp\asio\asiodrivers.cpp
+	<string.h>
+	"asiodrivers.h"
+	"iasiodrv.h"
+	"asiolist.h"
+
+1092241653 t:\src\rtaudio.dev\rec_imp\asio\asiolist.cpp
+	<windows.h>
+	"iasiodrv.h"
+	"asiolist.h"
+
+1092761410 t:\src\rtaudio.dev\rec_imp\fftsg_h.cpp
+	"fftsg_h.h"
+	<math.h>
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1093102196 t:\src\rtaudio.dev\rec_imp\fftsg_h.h
+
+1108320439 t:\src\rtaudio.dev\rec_imp\rec_imp.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"fftsg_h.h"
+	"RtAudio.h"
+
+1107571089 t:\src\rtaudio.dev\rec_imp\rtaudio.h
+	"RtError.h"
+	<string>
+	<vector>
+	<windows.h>
+	<process.h>
+	<pthread.h>
+	<CoreAudio/AudioHardware.h>
+
+1077915557 t:\src\rtaudio.dev\rec_imp\rterror.h
+	<iostream>
+	<string>
+
+1130955426 t:\src\rtaudio.dev\rec_imp\rtaudio.cpp
+	"RtAudio.h"
+	<iostream>
+	<unistd.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/soundcard.h>
+	<errno.h>
+	<math.h>
+	<jack/jack.h>
+	<unistd.h>
+	<alsa/asoundlib.h>
+	<unistd.h>
+	<ctype.h>
+	"asio/asiosys.h"
+	"asio/asio.h"
+	"asio/asiodrivers.h"
+	<math.h>
+	<dsound.h>
+	<dmedia/audio.h>
+	<unistd.h>
+	<errno.h>
+
+1132174754 t:\src\audio\rec_imp\asio\asio.cpp
+	<string.h>
+	"asiosys.h"
+	"asio.h"
+	"asiodrvr.h"
+	"windows.h"
+	"iasiodrv.h"
+	"asiodrivers.h"
+	"asiodrvr.h"
+
+1077806743 t:\src\audio\rec_imp\asio\asiosys.h
+
+1132174754 t:\src\audio\rec_imp\asio\asio.h
+
+1132174762 t:\src\audio\rec_imp\asio\asiodrvr.h
+	"asiosys.h"
+	"asio.h"
+	<windows.h>
+	"combase.h"
+	"iasiodrv.h"
+
+1132247365 t:\src\audio\rec_imp\asio\iasiodrv.h
+	"asiosys.h"
+	"asio.h"
+
+1132174865 t:\src\audio\rec_imp\asio\asiodrivers.h
+	"ginclude.h"
+	"CodeFragments.hpp"
+	<windows.h>
+	"asiolist.h"
+	"asiolist.h"
+
+1132174857 t:\src\audio\rec_imp\asio\ginclude.h
+
+1132174834 t:\src\audio\rec_imp\asio\asiolist.h
+
+1132174865 t:\src\audio\rec_imp\asio\asiodrivers.cpp
+	<string.h>
+	"asiodrivers.h"
+	"iasiodrv.h"
+	"asiolist.h"
+
+1132174834 t:\src\audio\rec_imp\asio\asiolist.cpp
+	<windows.h>
+	"iasiodrv.h"
+	"asiolist.h"
+
+1092761410 t:\src\audio\rec_imp\fftsg_h.cpp
+	"fftsg_h.h"
+	<math.h>
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1093102196 t:\src\audio\rec_imp\fftsg_h.h
+
+1135713554 t:\src\audio\rec_imp\rec_imp.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"fftsg_h.h"
+	"RtAudio.h"
+
+1132369890 t:\src\audio\rec_imp\rtaudio.h
+	"RtError.h"
+	<string>
+	<vector>
+	<windows.h>
+	<process.h>
+	<pthread.h>
+	<CoreAudio/AudioHardware.h>
+
+1127763642 t:\src\audio\rec_imp\rterror.h
+	<iostream>
+	<string>
+
+1135713719 t:\src\audio\rec_imp\rtaudio.cpp
+	"RtAudio.h"
+	<iostream>
+	<stdio.h>
+	<unistd.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/soundcard.h>
+	<errno.h>
+	<math.h>
+	<jack/jack.h>
+	<unistd.h>
+	<alsa/asoundlib.h>
+	<unistd.h>
+	<ctype.h>
+	"asio/asiosys.h"
+	"asio/asio.h"
+	"asio/iasiothiscallresolver.h"
+	"asio/asiodrivers.h"
+	<math.h>
+	<dsound.h>
+	<assert.h>
+	"mmsystem.h"
+	"fstream"
+	"tchar.h"
+	<dmedia/audio.h>
+	<unistd.h>
+	<errno.h>
+
+1132174223 t:\src\audio\rec_imp\asio\iasiothiscallresolver.h
+	<windows.h>
+	"iasiodrv.h"
+
+1132174223 t:\src\audio\rec_imp\asio\iasiothiscallresolver.cpp
+	<new>
+	<assert.h>
+	"iasiothiscallresolver.h"
+

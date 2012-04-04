@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_project_file>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="1"/>
+	<Project>
+		<Option title="rec_imp"/>
+		<Option makefile="Makefile"/>
+		<Option makefile_is_custom="0"/>
+		<Option active_target="0"/>
+		<Option compiler="0"/>
+		<Build>
+			<Target title="Release Win32">
+				<Option output="Release\rec_imp.exe"/>
+				<Option working_dir="."/>
+				<Option object_output="Release"/>
+				<Option deps_output=".deps"/>
+				<Option type="1"/>
+				<Option compiler="0"/>
+				<Option projectResourceIncludeDirsRelation="1"/>
+				<Compiler>
+					<Add option="-march=i586"/>
+					<Add option="-Os"/>
+					<Add option="-W"/>
+					<Add option="-DWIN32"/>
+					<Add option="-D_CONSOLE"/>
+					<Add option="-D__WINDOWS_DS__"/>
+					<Add option="-D__WINDOWS_ASIO__"/>
+					<Add option="-D__RTAUDIO_DEBUG__"/>
+				</Compiler>
+				<Linker>
+					<Add option="-s"/>
+					<Add library="dsound"/>
+					<Add library="ole32"/>
+					<Add library="winmm"/>
+				</Linker>
+			</Target>
+			<Target title="Debug Win32">
+				<Option output="Debug\rec_imp.exe"/>
+				<Option working_dir="."/>
+				<Option object_output="Debug"/>
+				<Option deps_output=".deps"/>
+				<Option type="1"/>
+				<Option compiler="0"/>
+				<Option projectResourceIncludeDirsRelation="1"/>
+				<Compiler>
+					<Add option="-W"/>
+					<Add option="-g"/>
+					<Add option="-O0"/>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DWIN32"/>
+					<Add option="-D_CONSOLE"/>
+					<Add option="-D__WINDOWS_DS__"/>
+					<Add option="-D__WINDOWS_ASIO__"/>
+					<Add option="-D__RTAUDIO_DEBUG__"/>
+				</Compiler>
+				<Linker>
+					<Add library="dsound"/>
+					<Add library="ole32"/>
+					<Add library="winmm"/>
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="RtAudio.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+		<Unit filename="RtAudio.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+		<Unit filename="asio\asio.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+		<Unit filename="asio\asio.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+		<Unit filename="asio\asiodrivers.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+		<Unit filename="asio\asiodrivers.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+		<Unit filename="asio\asiodrvr.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+		<Unit filename="asio\asiolist.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+		<Unit filename="asio\asiolist.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+		<Unit filename="asio\asiosys.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+		<Unit filename="asio\ginclude.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+		<Unit filename="asio\iasiodrv.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+		<Unit filename="asio\iasiothiscallresolver.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Release Win32"/>
+			<Option target="Debug Win32"/>
+		</Unit>
+		<Unit filename="asio\iasiothiscallresolver.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Release Win32"/>
+			<Option target="Debug Win32"/>
+		</Unit>
+		<Unit filename="fftsg_h.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+		<Unit filename="fftsg_h.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+		<Unit filename="rec_imp.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug Win32"/>
+			<Option target="Release Win32"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
