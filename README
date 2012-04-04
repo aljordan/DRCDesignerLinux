@@ -1,0 +1,10 @@
+This is the Java source code for Digital Room Correction Designer for Linux.  DRCDesigner for Linux greatly eases the process of creating a digital room correction filters for audio systems.
+
+The functionality of the source code relies on the following opensource projects to be installed on you Linux PC.
+DRC - http://drc-fir.sourceforge.net/
+SOX - http://sox.sourceforge.net/
+
+The compiled application can be found at:
+http://www.alanjordan.org/DRCDesigner/DRCDesigner.tar.gz
+
+Please contact the author, Alan Jordan, at aljordan@gmail.com
