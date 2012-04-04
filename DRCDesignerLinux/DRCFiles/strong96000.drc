@@ -159,7 +159,7 @@ PTOutFileType = F
 PTOutWindow = 0
 
 # PL = Peak limiting stage
-PLType = M
+PLType = W
 PLMaxGain = 2.0 # +6.02 dB Max
 PLStart = 0.75
 PLStartFreq = 20

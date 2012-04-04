@@ -144,7 +144,7 @@ ISNormType = E
 ISOutFileType = F
 
 # PT = Psychoacoustic target stage
-PTType = M
+PTType = W
 PTReferenceWindow = 57600 # 300 ms
 PTDLType = M
 PTDLMinGain = 0.1 # -20.0 dB Min
