@@ -10,7 +10,7 @@ OBJECTS	=	RtAudio.o fftsg_h.o
 CC       = g++
 DEFS     = -DUseDouble
 AUDIO_DEFS    += -D__LINUX_OSS__ -D__LINUX_ALSA__
-CFLAGS   = -O2 -march=pentium4 -fno-fast-math
+CFLAGS   = -O
 CFLAGS  += -Wall -I$(INCLUDE)
 #CFLAGS  += -g
 AUDIO_LIBRARY  = -lasound -lpthread
