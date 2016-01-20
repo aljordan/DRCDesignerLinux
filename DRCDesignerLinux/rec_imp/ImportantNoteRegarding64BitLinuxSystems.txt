@@ -1,0 +1,11 @@
+Because rec_imp was compiled for 32 bit systems, it will fail on modern 64 bit Linux systems.
+In order to get it to run on 64 bit linux systems, extra packages will have to be installed.
+
+Below are the packages needed to run rec_imp on 64 bit Ubuntu 14.04 variations:
+libasound2:i386, libjack0:i386, lib32stdc++6 lib32z1, lib32z1-dev, libasound2-plugins:i386
+
+Install them with the following commands:
+sudo apt-get install libasound2:i386
+sudo apt-get install libjack0:i386
+sudo apt-get install lib32stdc++6 lib32z1 lib32z1-dev
+sudo apt-get install libasound2-plugins:i386
