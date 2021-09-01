@@ -21,9 +21,9 @@
 
 				d.sbragion@infotecna.it
 
-		This program uses the parsecfg library from Yuuki  NINOMIYA.  De­
-		tails  on  this  library  can be found in the parsecfg.c and par­
-		secfg.h files.  Many thanks to Yuuki NINOMIYA for this useful li­
+		This program uses the parsecfg library from Yuuki  NINOMIYA.  Deï¿½
+		tails  on  this  library  can be found in the parsecfg.c and parï¿½
+		secfg.h files.  Many thanks to Yuuki NINOMIYA for this useful liï¿½
 		brary.
 
 		This program uses  also the FFT  routines from  Takuya Ooura and
@@ -39,6 +39,7 @@
 #include "fftsg_h.h"
 #include "RtAudio.h"
 #include <cstring>
+#include <unistd.h>
 
 using namespace std;
 
@@ -887,7 +888,7 @@ int LSConv(	FILE * SweepFile, FILE * InverseFile,
 							else
 								if (DLAbs < DLSLevel)
 									{
-										/* Verifica se è già disponibile il minimo locale */
+										/* Verifica se ï¿½ giï¿½ disponibile il minimo locale */
 										if (DLMin < (DLReal) 0.0)
 											{
 												/* Cerca il minimo locale */
@@ -904,7 +905,7 @@ int LSConv(	FILE * SweepFile, FILE * InverseFile,
 												if (DLFMin < (DLReal) 0.0)
 													DLFMin = DLMin;
 
-												/* Verifica se il minimo locale è inferiore
+												/* Verifica se il minimo locale ï¿½ inferiore
 												al livello minimo e ricalcola i fattori di
 												compressione */
 												if (DLMin < RMSMin)
@@ -940,7 +941,7 @@ int LSConv(	FILE * SweepFile, FILE * InverseFile,
 					/* Check starting components */
 					if (Sweep[0] < DLSLevel)
 						{
-							/* Verifica se il minimo locale è inferiore
+							/* Verifica se il minimo locale ï¿½ inferiore
 							al livello minimo e ricalcola i fattori di
 							compressione */
 							if (DLFMin < RMSMin)
@@ -957,7 +958,7 @@ int LSConv(	FILE * SweepFile, FILE * InverseFile,
 
 					if (Sweep[1] < DLSLevel)
 						{
-							/* Verifica se il minimo locale è inferiore
+							/* Verifica se il minimo locale ï¿½ inferiore
 							al livello minimo e ricalcola i fattori di
 							compressione */
 							if (DLLMin < RMSMin)
